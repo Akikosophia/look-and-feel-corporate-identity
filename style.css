@@ -93,6 +93,7 @@ h1 {
 }
 
 /* button hover aanpassen  */
+
 /* .button:hover {
     background-color:  #f7a100c8;
 } */
@@ -164,7 +165,7 @@ footer ul {
 
 /* mobiel large  */
 
-/* @media (min-width:425px) {
+@media (min-width:425px) {
    
         
         .house {
@@ -198,7 +199,7 @@ footer ul {
             font-size: large;
             font-weight: bold;
         }
-} */
+} 
 
 
 
@@ -252,45 +253,7 @@ footer ul {
         margin-left: 1em;
         margin-bottom: 1em; 
         
-    } */
+    } 
     
 }
 
-
-/* .list-one li{
-    list-style: none;
-    text-align: left;
-    margin-top: 20px;
-    padding-left: 1.2em;
-}
-
-.list-two li{
-    list-style: none;
-    text-align: left;
-    margin-top: 20px;
-    padding-left: 1.2em;
-}
-
-.list-three li{
-    list-style: none;
-    text-align: left;
-    margin-top: 20px;
-    padding-left: 1.2em;
-}
-
-.list-four li{
-    list-style: none;
-    text-align: left;
-    margin-top: 20px;
-    padding-left: 1.2em;
-} */
-
-
- /* main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
- } */
