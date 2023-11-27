@@ -4,9 +4,17 @@
     margin: 0;
 }
 
+:root {
+--primarycolor: #F7A100;
+--secondarycolor: white;
+--text-color: #333333;
+--footer-color: #CCCCCC;
+
+}
+
 
 body {
-    background-color: white;
+    background-color:var(--secondarycolor) ;
     font-family: 'proxima nova';
     display: flex;
     flex-direction: column;
@@ -22,51 +30,55 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1em;
+    font-size: 1em; 
 }
 
-ul {
+nav ul li {
+    display: inline-block;
+    padding: 10px;
     list-style-type: none;
 }
 
-ul li {
-    display: inline-block;
-    padding: 2.5em 1.5em;
+.nav-list {
+    position: absolute;
+    right: 0;
+    
 }
 
-ul li a {
+nav ul li a {
     text-decoration: none;
     color: white;
+    list-style-type: none;
+   
 }
 
 .logo {
-    width: 120px;   
-    padding-left: 30px;
-
+   width: 30%;
+   margin-bottom: 1px;
+   margin-top: 5px;
+   margin-left: 30px;
 }
 
-a {
-    text-decoration: none;
-}
 
 :root {
     --menu-count: 4;
 }
 
 
+
 h1 {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     text-align: left;
     padding: 1em;
     font-size: 1.6em;
 }
 
 .button {
-    padding-left: 0.5em;
+    padding-left: 5px;
 }
 
-.button-list {
+.button a {
     width: 100px;
     height: 50px;
     display: inline-block;
@@ -76,72 +88,15 @@ h1 {
     text-align: center;
     line-height: 50px;
     border-radius: 10px;
-}
-
-.button-houses {
-    width: 100px;
-    height: 50px;
-    display: inline-block;
-    background-color: #F7A100;
-    margin: 5px 5px auto;
-    color: white;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 10px;
-}
-
-.button-houses:hover {
-    background-color:  #f7a100c8;
-}
-
-.button-list:hover {
-    background-color: #f7a100c8;
-}
-
-/* .nav-bar {
-    height: 60px;
-  }
-
-nav {
-    background-color: #F7A100;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1em;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul li {
-    display: inline-block;
-    padding: 2.5em 1.5em;
-}
-
-ul li a {
     text-decoration: none;
-    color: white;
-} */
-
-/* .toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 300px;
-    height: 21px;
+    padding-left: 5px;
 }
 
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
+/* button hover aanpassen  */
+/* .button:hover {
+    background-color:  #f7a100c8;
 } */
+
 
 h2 {
     padding-left: 5.8em;
@@ -155,6 +110,8 @@ h2 {
 article {
     margin: 0.5em;
 }
+
+/* verschillende huizen gebruiken */
 
  .house {
     border-radius: 1.5em;
@@ -171,13 +128,163 @@ article {
     border-radius: 1.5em;
  }
 
- ol li {
+.info-house  {
     list-style: none;
     text-align: left;
     padding-left: 6.8em;
-    margin-top: -9px;
+    margin-top: -16px;
     margin-bottom: 5px;
 }
+
+
+footer {
+    background-color: var(--footer-color);
+    margin-top: 20px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+li a{
+   text-decoration: none;
+
+}
+
+footer ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    
+}
+
+/* mobiel large  */
+
+/* @media (min-width:425px) {
+   
+        
+        .house {
+            border-radius: 1.5em;
+            box-shadow: 1px black;
+            border: 1px solid black;
+            padding: 0.5em;
+            margin-bottom: 0.5em;
+         }
+         
+         .img-house {
+            width: 150px;
+            height: 100px;
+            object-fit: contain;
+            border-radius: 1.5em;
+         }
+        
+         .info-house  {
+            list-style: none;
+            text-align: left;
+            padding-left: 9.7em;
+            margin-top: -16px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            padding-left: 8.6em;
+            text-align: left;
+            margin-top: -6em;
+            margin-bottom: 2em;
+            font-size: large;
+            font-weight: bold;
+        }
+} */
+
+
+
+   /* tablet */
+
+ @media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    article {
+        margin-left: 1em;
+        margin-bottom: 1em; 
+        
+    }
+    
+    .house {
+        border-radius: 1.5em;
+        box-shadow: 1px black;
+        border: 1px solid black;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+        width: 350px;
+     }
+
+     footer {
+        display: flex;
+        flex-direction: row;
+     }
+
+    }
+
+/* laptop */
+
+@media (min-width: 1024px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    article {
+        margin-left: 1em;
+        margin-bottom: 1em; 
+        
+    } */
+    
+}
+
+
+/* .list-one li{
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 1.2em;
+}
+
+.list-two li{
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 1.2em;
+}
+
+.list-three li{
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 1.2em;
+}
+
+.list-four li{
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 1.2em;
+} */
+
 
  /* main {
     display: flex;
