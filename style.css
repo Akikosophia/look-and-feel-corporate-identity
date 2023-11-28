@@ -35,40 +35,42 @@ nav {
 
 nav ul li {
     display: inline-block;
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
     list-style-type: none;
 }
 
 .nav-list {
     position: absolute;
     right: 0;
-    
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     list-style-type: none;
-   
+    background-color: ;
 }
+
 
 .logo {
-   width: 30%;
+   width: 100px;
    margin-bottom: 1px;
    margin-top: 5px;
-   margin-left: 30px;
+   margin-left: -122px;
 }
 
-
-:root {
-    --menu-count: 4;
+.menu {
+    position: absolute;
+    left: 0;
+    padding-left: 5px;
 }
-
 
 
 h1 {
     margin-top: 1em;
     margin-bottom: 1em;
+    margin-left: -0.7rem;
     text-align: left;
     padding: 1em;
     font-size: 1.6em;
@@ -76,13 +78,15 @@ h1 {
 
 .button {
     padding-left: 5px;
+    padding-bottom: 3px;
+  
+    
 }
-
-.button a {
+.button-house  {
     width: 100px;
     height: 50px;
     display: inline-block;
-    background-color: #F7A100;
+    background-color: var(--primarycolor);
     margin: 5px 5px auto;
     color: white;
     text-align: center;
@@ -90,14 +94,35 @@ h1 {
     border-radius: 10px;
     text-decoration: none;
     padding-left: 5px;
+   
 }
 
+ .button-list  {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background-color: var(--primarycolor);
+    margin: 5px 5px auto;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 5px;
+    
+}
 /* button hover aanpassen  */
+/* #CCCCCC EDEDED
+#999999 */
 
-/* .button:hover {
-    background-color:  #f7a100c8;
-} */
 
+.button a:hover {
+    background-color: rgba(222,145,1,255);
+}
+
+.button-list a:hover {
+    background-color: rgba(222,145,1,255)
+}
 
 h2 {
     padding-left: 5.8em;
@@ -110,16 +135,19 @@ h2 {
 
 article {
     margin: 0.5em;
+    padding-bottom: 1px;
+    
 }
 
 /* verschillende huizen gebruiken */
 
  .house {
     border-radius: 1.5em;
-    box-shadow: 1px black;
-    border: 1px solid black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* box-shadow: #999999 0px 2px 2px 2px; */
+    /* border-top: 2px solid var(--secondarycolor); */
     padding: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
  }
  
  .img-house {
@@ -137,6 +165,15 @@ article {
     margin-bottom: 5px;
 }
 
+.ri-more-2-line {
+
+}
+
+.ri-star-line{
+    padding-left: 260px;
+    padding-bottom: -50px
+
+}
 
 footer {
     background-color: var(--footer-color);
@@ -170,35 +207,48 @@ footer ul {
         
         .house {
             border-radius: 1.5em;
-            box-shadow: 1px black;
-            border: 1px solid black;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
             padding: 0.5em;
             margin-bottom: 0.5em;
          }
          
          .img-house {
-            width: 150px;
+            /* width: 150px;
             height: 100px;
-            object-fit: contain;
+            object-fit: contain; */
             border-radius: 1.5em;
          }
         
          .info-house  {
             list-style: none;
             text-align: left;
-            padding-left: 9.7em;
+            padding-left: 6.7em;
             margin-top: -16px;
             margin-bottom: 5px;
         }
 
         h2 {
-            padding-left: 8.6em;
+            padding-left: 5.9em;
             text-align: left;
             margin-top: -6em;
             margin-bottom: 2em;
             font-size: large;
             font-weight: bold;
         }
+
+        .logo {
+            width: 100px;
+            margin-bottom: 1px;
+            margin-top: 5px;
+            margin-left: -175px;
+         }
+
+         h1 {
+            margin-left: 0.5rem;
+           
+            
+        }
+       
 } 
 
 
@@ -217,18 +267,28 @@ footer ul {
 
     article {
         margin-left: 1em;
-        margin-bottom: 1em; 
+        margin-bottom: 3px; 
         
     }
     
     .house {
         border-radius: 1.5em;
-        box-shadow: 1px black;
-        border: 1px solid black;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         padding: 0.5em;
         margin-bottom: 0.5em;
         width: 350px;
      }
+
+     .logo {
+        width: 100px;
+        margin-bottom: 1px;
+        margin-top: 5px;
+        margin-left: -345px;
+     }
+     
+     .button {
+        padding-left: 22px; 
+    }
 
      footer {
         display: flex;
@@ -249,11 +309,82 @@ footer ul {
         
     }
 
+    h1 {
+        text-align: center;
+    }
+
     article {
         margin-left: 1em;
-        margin-bottom: 1em; 
-        
+        padding: 3px;  
     } 
+
+    .house {
+        border-radius: 1.5em;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+        width: 350px;
+     }
     
+     .logo {
+        width: 100px;
+        margin-bottom: 1px;
+        margin-top: 5px;
+        margin-left: -363px;
+     }
+
+     .button {
+        padding-left: 150px; 
+       
+    }
+
+    
+     footer {
+        display: flex;
+        flex-direction: row;
+     }
 }
+
+@media (min-width: 1440px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    article {
+        margin-left: 1em;
+        padding: 3px
+    } 
+
+    .house {
+        border-radius: 1.5em;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+        width: 350px;
+     }
+    
+     .logo {
+        width: 100px;
+        margin-bottom: 1px;
+        margin-top: 5px;
+        margin-left: -565px;
+     }
+
+     .button {
+        padding-left: 160px;
+    }
+   
+     footer {
+        display: flex;
+        flex-direction: row;
+       
+     } 
+}
+
+
 
