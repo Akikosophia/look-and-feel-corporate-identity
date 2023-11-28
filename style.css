@@ -49,7 +49,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     list-style-type: none;
-    background-color: ;
+   
 }
 
 
@@ -189,15 +189,20 @@ li a{
 
 }
 
+footer li {
+    padding: 10px;
+}
+
 footer ul {
     list-style: none;
     text-align: left;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-left: 1.2em;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    
+    padding: 10px;
 }
 
 /* mobiel large  */
@@ -248,6 +253,14 @@ footer ul {
            
             
         }
+
+        footer li {
+            padding: 2px;
+        }
+    
+         footer ul  {
+            padding: 10px;
+         }
        
 } 
 
@@ -295,6 +308,12 @@ footer ul {
         flex-direction: row;
      }
 
+     footer li {
+        padding-left: 15px;
+
+     }
+
+ 
     }
 
 /* laptop */
@@ -306,7 +325,6 @@ footer ul {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        
     }
 
     h1 {
@@ -338,35 +356,26 @@ footer ul {
        
     }
 
-    
      footer {
         display: flex;
         flex-direction: row;
+        flex-basis: 100%;
+        align-content: center;
+        justify-content: center;
      }
+
+     footer li {
+        padding-left: 17px;
+     }
+
+
 }
 
 @media (min-width: 1440px) {
-    main {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-
-    }
-
     article {
         margin-left: 1em;
         padding: 3px
     } 
-
-    .house {
-        border-radius: 1.5em;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        padding: 0.5em;
-        margin-bottom: 0.5em;
-        width: 350px;
-     }
     
      .logo {
         width: 100px;
@@ -375,16 +384,15 @@ footer ul {
         margin-left: -565px;
      }
 
-     .button {
+    .button {
         padding-left: 160px;
     }
    
-     footer {
-        display: flex;
-        flex-direction: row;
-       
-     } 
+    footer li{
+        padding: 10px;
+    }
+
+    footer ul {
+        padding: 10px;
+    }
 }
-
-
-
