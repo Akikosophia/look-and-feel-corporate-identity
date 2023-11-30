@@ -43,13 +43,19 @@ https://github.com/Abeeryu/look-and-feel-corporate-identity
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 ## Bronnen
-Bronnen
+
 https://github.com/Abeeryu/look-and-feel-corporate-identity
+
 https://github.com/Abeeryu/look-and-feel-corporate-identity/wiki
+
 https://abeeryu.github.io/look-and-feel-corporate-identity/
+
 https://github.com/Akikosophia/look-and-feel-corporate-identity
+
 https://github.com/Akikosophia/look-and-feel-corporate-identity/wiki
+
 https://akikosophia.github.io/look-and-feel-corporate-identity/
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
