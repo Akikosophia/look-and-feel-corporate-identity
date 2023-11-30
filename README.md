@@ -31,6 +31,8 @@ Wij hebben het voor verschillende apparaten gemaakt, voor mobile, tablet en desc
 
 ### Link naar Github Pages
 
+https://github.com/Akikosophia/look-and-feel-corporate-identity
+https://github.com/Abeeryu/look-and-feel-corporate-identity
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
