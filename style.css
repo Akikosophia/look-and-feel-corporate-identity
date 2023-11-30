@@ -181,6 +181,10 @@ footer ul {
             padding: 0.5em;
             margin-bottom: 0.5em;
          }
+
+         article {
+            padding: 3px;
+         }
         
         
          .info-house  {
@@ -190,6 +194,7 @@ footer ul {
             margin-top: -16px;
             margin-bottom: 5px;
         }
+
 
         h2 {
             padding-left: 5.9em;
@@ -211,12 +216,12 @@ footer ul {
             margin-left: 0.5rem;
             text-align: center;
         }
-        
+/*         
         .button {
             display: flex;
             justify-content:center;
             align-items: center;
-        }
+        } */
 
         footer li {
             padding: 2px;
@@ -243,9 +248,7 @@ footer ul {
     }
 
     article {
-        margin-left: 1em;
-        /* margin-bottom: 3px;  */
-        
+       padding: 0px;
     }
     
     .house {
@@ -267,6 +270,7 @@ footer ul {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 5px;
     }
 
      footer {
@@ -300,7 +304,7 @@ footer ul {
 
     article {
         margin-left: 1em;
-        /* padding: 3px;   */
+        padding: 3px;  
     } 
 
     .house {
@@ -323,6 +327,7 @@ footer ul {
        display: flex;
        justify-content: center;
        align-items: center;
+       padding-bottom: 5px;
     }
 
      footer {
@@ -355,7 +360,6 @@ footer ul {
      }
 
     .button {
-        /* padding-left: 160px; */
         display: flex;
         justify-content: center;
         align-items: center
