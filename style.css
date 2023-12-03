@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(assets/ProximaNova/ProximaNova-Regular_2607783814[2339].otf);
+    
+}
+
 :root {
 --primarycolor: #F7A100;
 --secondarycolor: white;
