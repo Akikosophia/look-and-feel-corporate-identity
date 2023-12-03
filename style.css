@@ -7,7 +7,6 @@
 @font-face {
     font-family: "Proxima Nova";
     src: url(assets/ProximaNova/ProximaNova-Regular_2607783814[2339].otf);
-    
 }
 
 :root {
@@ -25,7 +24,7 @@
 
 body {
     background-color:var(--secondarycolor) ;
-    font-family: 'proxima nova';
+    font-family: "Proxima Nova";
     display: flex;
     flex-direction: column;
     
