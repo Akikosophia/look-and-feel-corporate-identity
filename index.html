@@ -151,13 +151,48 @@
                 
                 </article>
 
+                <button id="showDialogBtn">Show a dialog</button>
+<!-- 
+                <dialog id="favDialog">
+                  <form method="dialog">
+                    <p>The background shown outside of this dialog is a backdrop.</p>
+                    <button id="confirmBtn">Close the dialog</button>
+                  </form>
+                </dialog>
 
+              <dialog open>
+                    <button>Chat</button>
+
+                    <p> Onze agenten zijn op dit moment niet beschikbaar. Laat een bericht achter</p>
+                    <label for=""> Jouw naam*</label>
+                    <input type="text" required="volledige naam">
+                    <label for=""> Email*</label>
+                    <input type="text" required="volledige email">
+                    <form method="dialog">
+                   
+                    <div class="checkbox">
+                        <input type="checkbox"> I accepteer de voorwaarden
+                    </div>
+                     
+
+                      <button>
+                        Start de chat
+                     </button>
+                    </form>
+                  </dialog> -->
+
+
+                  <!-- <dialog>
+                    <button autofocus>Close</button>
+                    <p>This modal dialog has a groovy backdrop!</p>
+                  </dialog>
+                  <button>Ga naar de form</button> --> 
                 <!-- onclick="myfun()"; -->
-<container>
-    <button id="chat-now" onclick="myfun();">
+
+  <button id="chat-now" onclick="myfun();">
         CHAT NOW
     </button>
-    <!-- onclick="closer()"  -->
+    onclick="closer()"  
     <div id="form-wrapper">
         <div class="close">
         <i class="ri-close-line" id="close" onclick="closer();"></i> 
@@ -178,14 +213,8 @@
      <div class="form-group-check">
       <input type="checkbox">
       I accepteer de voorwaarden
-     </div>
-    
-    
-     <button>
-        Start de chat
-     </button>
-     
-    </container>
+     </div> 
+
     <footer>
             
         <ul >
@@ -230,18 +259,9 @@
     </footer>
 
      <!-- form? -->
-     <script src="script.js">
+     <script>
 
-        function myfun(){
-              document.getElementById
-               ('form-wrapper').classList.add
-                ('active');
-             }
-            
-            function closer(){
-               document.getElementById('form-wrapper')
-              .classList.remove('active');
-            }
+     
         
         </script>
     </body>
